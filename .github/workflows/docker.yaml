@@ -5,7 +5,7 @@ on:
   push:
     branches: [ main ]
   schedule:
-    - cron: '0 * * * *'  # 每小时的第 0 分钟运行一次
+  - cron: '0 18 * * *'  # UTC 时间 18:00 == 北京时间 02:00
 
 env:
   ALIYUN_REGISTRY: "${{ secrets.ALIYUN_REGISTRY }}"
