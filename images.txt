@@ -1,5 +1,6 @@
 axllent/mailpit:latest
 redis:alpine
+rustfs/rustfs:latest 
 wordpress:php8.4-fpm-alpine
 mysql:5.7
 mariadb:10.11
