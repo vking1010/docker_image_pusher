@@ -1,13 +1,7 @@
-axllent/mailpit:latest
 redis:alpine
 rustfs/rustfs:latest 
 wordpress:php8.4-fpm-alpine
 mysql:5.7
 mariadb:10.11
 nginx:latest
-#支持私库1
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-docker.n8n.io/n8nio/n8n
-defydata/defy:latest
-#支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+
